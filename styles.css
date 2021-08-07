@@ -1,0 +1,95 @@
+nav,
+.banner {
+    background-color: #244653;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav .navItem {
+    color: white;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+.content {
+    color: white;
+}
+
+.featured,
+.featured .headline,
+.latestnews,
+.latestnews .headline,
+.client,
+.client .headline,
+.faq,
+.faq .headline {
+    margin: 5rem 0;
+}
+
+h1 span {
+    color: #E76F51;
+}
+
+.featured p {
+    color: #E76F51;
+}
+
+.grey img {
+    filter: grayscale(100%);
+}
+
+.headline p::after {
+    content: '';
+    height: 2px;
+    width: 5%;
+    background: #E76F51;
+    position: absolute;
+    left: calc(57% - 10%);
+    bottom: 150px;
+}
+
+.btn-custom {
+    background: #E76F51;
+    color: white;
+}
+
+.name {
+    font-weight: bold;
+    color: rgb(0, 132, 255);
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.client img{
+    width: 191px;
+    height: 191px;
+}
+.client i{
+    color: goldenrod;
+}
+.rectImg {
+    width: 161px;
+    height: 161px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.topProducts p,
+.topProducts h5 {
+    color: white;
+}
+
+.topProducts img {
+    filter: grayscale(70%);
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
